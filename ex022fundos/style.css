@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    
+   /* 
+    background-color: black;
+    background-image: url(imagens/IMG_20260421.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+
+    /* Shorthand - background
+    color > image > position > repeat > [sizi] > attachment
+    */
+    background: black url(imagens/IMG_20260421.jpg) center center no-repeat  fixed;
+    background-size: cover;
+
+}
+main{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+
+}
