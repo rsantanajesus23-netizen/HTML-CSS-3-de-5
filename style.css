@@ -8,14 +8,15 @@ body{
     background-color: #f0f0f0;
 }
 #topo{
-    background-color: #2c3e50;
+    background-color: #121c25;
     color: white;
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 .subtitulo{
     color: #aaaaaa;
-    margin-top: 8px;
+    margin-top: 16px;
+    font-size:1.2em ;
 }
 .card{
     background-color: white;
@@ -38,29 +39,31 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
-.card a :hover{
-    color: #e74c3c;
+.card a:hover{
+    color: #8b1d11;
     text-decoration: underline;
 }
 #rodape{
-    background-color: #2c3e50;
-    color: #aaaaaa;
+    background-color:#121c25;
+    color:#ff0303;
     text-align: center;
     padding: 20px;
     margin-top: 0.9rem;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 35px;
 }
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction:row ;
     align-items: center;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 30px 5px;
     
 }
